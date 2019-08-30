@@ -3,6 +3,9 @@
 body {
   font-family: 'Poppins';
 }
+* {
+  margin:0px;
+}
 
 /* Useful information:
 
@@ -11,6 +14,15 @@ form input color: rgba(0,0,0,.05)
 form button background color: #fb3e44
 form button letters color: white */
 
+header{
+  border-top-style: solid;
+  border-width: 3px 0px 0px;
+  border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
+.heartnpm {
+  margin-top: 20px;
+}
 
 header>div {
   font-family: 'Poppins';
@@ -29,9 +41,11 @@ header>div {
   align-items: center;
   border-bottom: 1px solid lightgray;
 }
-
-#npm {
-  font-size: 15px;
+.npm{
+  font-size: 14px;
+  position: absolute;
+  top: 19px;
+  margin-left: 55px;
 }
 
 #search-log {
@@ -41,17 +55,19 @@ header>div {
   padding-top: 0px;
 }
 
-.search-bar {
+.magnifying-glass {
   width: 20px;
   height: 20px;
   background-color: rgb(242, 242, 242);
+  position: absolute;
+  bottom: 563px;
 }
 
-#search {
+#search-bar {
   font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
   font-size: 15px;
   background-color: #f2f2f2;
-  padding-left: 10px;
+  padding-left: 30px;
   padding-bottom: 0px;
 }
 
@@ -82,7 +98,7 @@ header>div {
 }
 
 .npmlogo {
-  width: 60px;
+  width: 65px;
 }
 
 nav {
@@ -110,8 +126,9 @@ li {
 
 
 .blackHeart {
-  width: 20px;
+  width: 25px;
   margin-right: 1rem;
+  padding-bottom: 10px;
 }
 
 form input {
@@ -208,7 +225,7 @@ background-color: rgb(185, 10, 10)
   margin-left: 40px;
 }
 .link-free:hover{
-  background-color: rgb(237, 238, 243);
+  background-color: rgb(236, 237, 240);
 }
 
 /* Section 2 */
